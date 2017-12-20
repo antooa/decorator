@@ -18,6 +18,28 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="coffee_with_adds.h" />
+    <ClInclude Include="decorator.h" />
+    <ClInclude Include="drink.h" />
+    <ClInclude Include="espresso.h" />
+    <ClInclude Include="house_blend.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="roasted_black.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="coffee_with_adds.cpp" />
+    <ClCompile Include="decorator.cpp" />
+    <ClCompile Include="drink.cpp" />
+    <ClCompile Include="espresso.cpp" />
+    <ClCompile Include="house_blend.cpp" />
+    <ClCompile Include="roasted_black.cpp" />
+    <ClCompile Include="source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="order2.txt" />
+    <Text Include="order1.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{EA789F8C-626A-4E9D-BF60-996E36511923}</ProjectGuid>
     <RootNamespace>decorator</RootNamespace>
@@ -117,8 +139,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
